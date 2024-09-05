@@ -23,26 +23,40 @@ body {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
 }
 
 li {
-  display: inline-block;
-  margin: 10px;
-  padding: 1px;
+  display: inline;
 }
 
-h2 {
-  font-family: Courier, monospace;
-  font-size: 80px;
-  color: rgb(69, 161, 157);
-  padding: 20px;
-  margin: 40px;
-  display: flex;
-  justify-content: left;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.336), 5px 5px 70px rgba(255, 255, 255, 0.5);
+a {
+  text-decoration: none;
+  display: inline-block;
+  width: 30vh;
+  margin-right: 0.5%;
+  text-align: center;
+  line-height: 2.5;
+  color: #F9DDD2;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: #4A6274;
+}
+
+a:hover {
+  background: #E2725A;
+}
+
+a:active {
+  background: red;
+  color: white;
 }
 
 .section1, .section2 {
@@ -68,18 +82,46 @@ h2 {
 }
 
 .section2 {
-  background: rgb(236, 186, 186);
+  background: rgb(255, 255, 255);
 }
 
-.text {
+.title {
   top: 30%;
   left: 50%;
   position: absolute;
-  font-family: Trebuchet MS;
+  font-family: Trebuchet MS, monospace;
+  text-transform: uppercase;
   font-size: 15vw;
   color: rgb(236, 186, 186);
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.925), 5px 5px 70px rgba(255, 255, 255, 0.5);
   transform: scale(1, 1.1) translate(-50%, 10%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  margin: 10px 40px 10px 40px;
+  padding: 40px;
+  font-family: Courier, monospace;
+  font-size: 40px;
+  color: rgb(69, 161, 157);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.075), 5px 5px 70px rgba(255, 255, 255, 0.5);
+}
+
+p {
+  margin: 10px 40px 10px 40px;
+  padding: 40px;
+  font-family: Trebuchet MS, monospace;
+  font-size: 20px;
+  border-style: inset;
+  border-width: 2px;
+  border-color: rgb(69, 161, 157);
+  background-color: rgb(236, 186, 186)
 }
 
 footer {
@@ -104,4 +146,11 @@ footer .github a {
   height: 30px;
   width: 30px;
   text-indent: -9999999px; 
+}
+
+.footer-text {
+  font-family: Trebuchet MS, monospace;
+  font-size: 20px;
+  align-text: center;
+  display: inline-block;
 }
