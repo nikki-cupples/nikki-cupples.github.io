@@ -22,17 +22,17 @@ body {
   font-family: Trebuchet MS, monospace;
 }
 
-ul {
+nav ul {
   margin: 10px;
   padding: 10px;
   width: 100%;
 }
 
-li {
+nav li {
   display: inline;
 }
 
-a {
+nav a {
   text-decoration: none;
   display: inline-block;
   width: 30vh;
@@ -42,19 +42,19 @@ a {
   color: #F9DDD2;
 }
 
-li:last-child a {
+nav li:last-child a {
   margin-right: 0;
 }
 
-a:link, a:visited, a:focus {
+nav a:link, a:visited, a:focus {
   background: #4A6274;
 }
 
-a:hover {
+nav a:hover {
   background: rgb(69, 161, 157);
 }
 
-a:active {
+nav a:active {
   background: rgb(47, 0, 255);
   color: white;
 }
@@ -104,7 +104,7 @@ main {
   margin: 0px;
 }
 
-h2 {
+main h2 {
   margin: 10px 40px 10px 40px;
   padding: 40px;
   font-family: Courier, monospace;
@@ -113,7 +113,7 @@ h2 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.075), 5px 5px 70px rgba(255, 255, 255, 0.5);
 }
 
-p {
+main p {
   margin: 10px 40px 10px 40px;
   padding: 40px;
   font-family: Trebuchet MS, monospace;
@@ -126,8 +126,16 @@ p {
 
 footer {
   background: rgb(91, 214, 208);
-  text-align: center;
-  padding: 20px;
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
 }
 
 footer .linkedin a {
@@ -136,7 +144,7 @@ footer .linkedin a {
   display: inline-block;
   height: 30px;
   width: 30px;
-  text-indent: -9999999px; 
+  text-indent: -9999999px;
 }
 
 footer .github a {
@@ -148,9 +156,4 @@ footer .github a {
   text-indent: -9999999px; 
 }
 
-.footer-text {
-  font-family: Trebuchet MS, monospace;
-  font-size: 20px;
-  align-text: center;
-  display: inline-block;
-}
+
