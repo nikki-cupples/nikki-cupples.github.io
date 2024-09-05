@@ -51,11 +51,11 @@ a:link, a:visited, a:focus {
 }
 
 a:hover {
-  background: #E2725A;
+  background: rgb(69, 161, 157);
 }
 
 a:active {
-  background: red;
+  background: rgb(47, 0, 255);
   color: white;
 }
 
@@ -109,7 +109,7 @@ h2 {
   padding: 40px;
   font-family: Courier, monospace;
   font-size: 40px;
-  color: rgb(69, 161, 157);
+  color: #4A6274;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.075), 5px 5px 70px rgba(255, 255, 255, 0.5);
 }
 
@@ -118,7 +118,7 @@ p {
   padding: 40px;
   font-family: Trebuchet MS, monospace;
   font-size: 20px;
-  border-style: inset;
+  border-style: groove;
   border-width: 2px;
   border-color: rgb(69, 161, 157);
   background-color: rgb(236, 186, 186)
