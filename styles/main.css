@@ -173,10 +173,11 @@ nav a:active {
 
 /* RELATIVE POSITIONING SUBTITLE*/
 @media screen and (max-width: 800px){
-  .subtitle {
+    .subtitle {
     font-size: 50px;
     display: flex;
     flex-direction: row;
+    flex: wrap;
     text-align: center;
   }
 }
@@ -184,7 +185,7 @@ nav a:active {
 /* RELATIVE POSITIONING TOP MENU BAR*/
 
   @media screen and (max-width: 600px) {
-    .desktop {
+    nav .desktop {
       display: none;
     }
   }

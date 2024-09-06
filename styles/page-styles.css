@@ -1,5 +1,15 @@
+/* 
+Pink: rgb(236, 186, 186)
+Cream: #F9DDD2
+Grey: #4A6274
+Hover teal: rgb(69, 161, 157)
+Footer bright teal: rgb(91, 214, 208)
+*/
+
+
+
 body {
-  background: rgb(9, 56, 126);
+  background: rgb(236, 186, 186);
   margin: 0;
   padding: 0;
 }
