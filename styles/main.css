@@ -19,6 +19,7 @@ nav {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  flex-wrap: wrap;
   font-family: Trebuchet MS, monospace;
   font-size: 20px;
 }
