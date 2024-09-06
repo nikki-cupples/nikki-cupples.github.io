@@ -73,8 +73,9 @@ nav a:active {
 
 .dropdown {
   display: inline-block;
-  position: relative;
+  position: fixed;
   left: 100%;
+  margin: 20px 50px 20px 0px;
   transform: translateX(-100%);
 }
 

@@ -1,25 +1,16 @@
-/* 
-Pink: rgb(236, 186, 186)
-Cream: #F9DDD2
-Grey: #4A6274
-Hover teal: rgb(69, 161, 157)
-Footer bright teal: rgb(91, 214, 208)
-*/
-
-
-
 body {
-  background: rgb(236, 186, 186);
+  background: whitesmoke;
   margin: 0;
   padding: 0;
 }
+
+/* HEADER AND NAVIGATION*/
 
 header {
   background-color: #F9DDD2;
   margin: 0;
   
 }
-
 
 nav {
   background: rgb(236, 186, 186);
@@ -128,6 +119,21 @@ nav a:active {
     }
   }
 
+/* BLOG SECTIONS*/
+/* 
+Pink: rgb(236, 186, 186)
+Cream: #F9DDD2
+Grey: #4A6274
+Hover teal: rgb(69, 161, 157)
+Footer bright teal: rgb(91, 214, 208)
+background: whitesmoke
+*/
+section {
+  background: whitesmoke;
+  margin: 20px;
+  padding: 20px;
+
+}
 
 
 /* FOOTER*/
