@@ -245,6 +245,10 @@ article p {
   text-align: right;
 }
 
+.poem {
+  text-align: center;
+}
+
 /* FOOTER*/
 
 footer {
