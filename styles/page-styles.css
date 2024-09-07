@@ -4,6 +4,15 @@ body {
   padding: 0;
 }
 
+main {
+  margin: 0 150px 0px 150px;
+  border-left: #4A6274;
+  border-left-width: 1px;
+  border-left-style: groove;
+  border-right: #4A6274;
+  border-right-width: 1px;
+  border-right-style: groove;
+}
 /* HEADER AND NAVIGATION*/
 
 header {
@@ -119,7 +128,7 @@ nav a:active {
     }
   }
 
-/* BLOG SECTIONS*/
+/* BLOG SECTION 1*/
 /* 
 Pink: rgb(236, 186, 186)
 Cream: #F9DDD2
@@ -143,37 +152,82 @@ background: whitesmoke
 
 section {
   background: whitesmoke;
-  margin: 20px 100px 20px 100px;
+  margin: 20px 50px 20px 50px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   font-family: Trebuchet MS, monospace;
-  border-width: 2px;
-  border-style: double;
-  border-color: #4a6274;
+}
+
+section h2 {
+  color: #4a6274;
+  text-shadow: 2px 2px 2px rgb(236, 186, 186), 5px 5px 70px rgba(255, 255, 255, 0.5);
 }
 
 section h3 {
   color: #4A6274;
   text-transform: uppercase;
   text-align: center;
-  background: #F9DDD2;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction img {
+  height: 300px;
+  width: auto;
+  margin: auto;
+}
+
+article {
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+article p {
+  text-align: left;
 }
 
 .margin {
-  display: inline-block;
-  background: aqua;
+  background: #e4ddff;
+  margin: 10px 200px 10px 200px;
+  align-items: center;
 }
 
 .border {
-  display: inline-block;
-  background: rgb(235, 248, 55);
+  border-top-style: dashed;
+  border-top-width: 20px;
+  border-top-color: #7657ff;
+  border-right-style: groove;
+  border-right-width: 30px;
+  border-right-color: #e4ddff;
+  border-left-style: double;
+  border-left-color: #7657ff;
+  border-left-width: 20px;
+  border-bottom-style: double;
+  border-bottom-color: #e4ddff;
+  border-bottom-width: 20px;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "one two three"
+    "four five six"
+    "seven eight nine"
+    "ten eleven twelve"
+}
 .padding {
-  display: inline-block;
-  background: rgb(0, 255, 34);
+  background: #e4ddff;
+  padding: 10px 100px 10px 80px;
+  text-align: right;
 }
 
 /* FOOTER*/
