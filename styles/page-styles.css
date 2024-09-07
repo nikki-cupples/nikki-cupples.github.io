@@ -128,13 +128,53 @@ Hover teal: rgb(69, 161, 157)
 Footer bright teal: rgb(91, 214, 208)
 background: whitesmoke
 */
-section {
-  background: whitesmoke;
-  margin: 20px;
-  padding: 20px;
 
+.blog-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: Trebuchet MS, monospace;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(236, 186, 186);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.925), 5px 5px 70px rgba(255, 255, 255, 0.5);
+  
 }
 
+section {
+  background: whitesmoke;
+  margin: 20px 100px 20px 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: Trebuchet MS, monospace;
+  border-width: 2px;
+  border-style: double;
+  border-color: #4a6274;
+}
+
+section h3 {
+  color: #4A6274;
+  text-transform: uppercase;
+  text-align: center;
+  background: #F9DDD2;
+}
+
+.margin {
+  display: inline-block;
+  background: aqua;
+}
+
+.border {
+  display: inline-block;
+  background: rgb(235, 248, 55);
+}
+
+.padding {
+  display: inline-block;
+  background: rgb(0, 255, 34);
+}
 
 /* FOOTER*/
 
