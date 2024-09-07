@@ -173,13 +173,18 @@ section h3 {
 
 .introduction {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .introduction img {
   height: 300px;
   width: auto;
   margin: auto;
+}
+
+.introduction p {
+  margin: 1px;
+  padding: 30px;
 }
 
 article {
