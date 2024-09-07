@@ -172,7 +172,7 @@ nav a:active {
 
 
 /* RELATIVE POSITIONING SUBTITLE*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     .subtitle {
     font-size: 50px;
     display: flex;
