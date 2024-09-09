@@ -194,7 +194,7 @@ background: whitesmoke
 
 section {
   background: rgb(255, 255, 255);
-  margin: 20px 50px 20px 50px;
+  margin: 20px 20px 20px 20px;
   padding: 10px;
   display: flex;
   flex-direction: column;
