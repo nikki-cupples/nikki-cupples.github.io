@@ -69,6 +69,45 @@ nav a:active {
   color: white;
 }
 
+.dropbtn2 {
+  background-color: #4A6274;
+  color: rgb(236, 186, 186);
+  font-size: 20px;
+  font-family: Trebuchet MS, monospace;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  width: 30vh;
+  margin-right: 0.5%;
+  text-align: center;
+  line-height: 2.5;
+  color: #F9DDD2;
+}
+
+.dropdown2 {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #4A6274;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+  background-color: rgb(69, 161, 157);
+}
+
 .dropbtn {
   background-color: rgb(236, 186, 186);
   color: #4A6274;
