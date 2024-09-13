@@ -108,6 +108,46 @@ nav a:active {
   background-color: rgb(69, 161, 157);
 }
 
+.dropbtn3 {
+  background-color: #4A6274;
+  color: rgb(236, 186, 186);
+  font-size: 20px;
+  font-family: Trebuchet MS, monospace;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  width: 30vh;
+  margin-right: 0.5%;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 2.5;
+  color: #F9DDD2;
+}
+
+.dropdown3 {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #4A6274;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0;
+}
+
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+.dropdown3:hover .dropbtn3 {
+  background-color: rgb(69, 161, 157);
+}
+
 .dropbtn {
   background-color: rgb(236, 186, 186);
   color: #4A6274;
