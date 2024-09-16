@@ -351,6 +351,14 @@ article p {
   height: 300px;
 }
 
+.wellbeing-model {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 300px;
+}
+
 /* FOOTER*/
 
 footer {
