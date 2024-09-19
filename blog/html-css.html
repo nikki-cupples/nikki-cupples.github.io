@@ -1,89 +1,98 @@
 <!DOCTYPE html>
-  <head>
-    <title>Blog by Nikki: Technical Blog</title>
-    <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/page-styles.css" type="text/css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul class="desktop">
-          <li><a href="/index.html">Blog. Nikki</a></li>
-          <li><a href="/blog/te-houtaewa-template.html">Te Houtaewa</a></li>   
-          <div class="dropdown2">
-            <button class="dropbtn2">Human Skills</button>
-            <div class="dropdown-content2">
-                <li><a href="/blog/identity-values.html">Identity & Values</a></li>
-                <li><a href="/blog/learning-plan.html">Learning Plan</a></li>
-                <li><a href="/blog/emotional-intelligence.html">Emotional Intelligence</a></li>
-                <li><a href="/blog/neuroplasticity.html">Neuroplasticity</a></li>
-                <li><a href="/blog/te-whare-tapa-wha.html">Te Whare Tapa Whā</a></li>
-              </div>
+<head>
+  <title>Blog by Nikki: Technical Blog</title>
+  <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/page-styles.css" type="text/css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="desktop">
+        <li><a href="/index.html">Blog. Nikki</a></li>
+        <li><a href="/blog/te-houtaewa-template.html">Te Houtaewa</a></li>   
+        <div class="dropdown2">
+          <button class="dropbtn2">Human Skills</button>
+          <div class="dropdown-content2">
+              <li><a href="/blog/identity-values.html">Identity & Values</a></li>
+              <li><a href="/blog/learning-plan.html">Learning Plan</a></li>
+              <li><a href="/blog/emotional-intelligence.html">Emotional Intelligence</a></li>
+              <li><a href="/blog/neuroplasticity.html">Neuroplasticity</a></li>
+              <li><a href="/blog/te-whare-tapa-wha.html">Te Whare Tapa Whā</a></li>
+          </div>
         </div>
         <div class="dropdown3">
           <button class="dropbtn3">Technical Blog</button>
             <div class="dropdown-content3">
                 <li><a href="/blog/html-css.html">Margin, Border & Padding</a></li>
                 <li><a href="/blog/javascript-dom.html">JS Fundamentals</a></li>
+                <li><a href="/blog/problem-solving.html">Problem Solving</a></li>
             </div>
         </div>
-        </ul>
-        <div class="dropdown">
-          <button class="dropbtn">|||</button>
-          <div class="dropdown-content">
-            <a href="/index.html">Blog. Nikki</a>
-            <a href="/blog/te-houtaewa-template.html">Te Houtaewa</a>
-            <a href="/blog/identity-values.html">Identity & Values</a>
-            <a href="/blog/learning-plan.html">Learning Plan</a>
-            <a href="/blog/javascript-dom.html">JS Fundamentals</a>
-            <a href="/blog/emotional-intelligence.html">Emotional Intelligence</a>
-            <a href="/blog/neuroplasticity.html">Neuroplasticity</a> 
-            <a href="/blog/te-whare-tapa-wha.html">Te Whare Tapa Whā</a>      
-        </div>
-      </nav>
-      </header>
-    <main>
-      <h2 class="blog-title">Technical Blog</h2><hr>
-      <section>
-        <h3>Margin, Border & Padding<br><em>September 5, 2024</em></h3>
-          <div class="introduction">
-              <img src="/images/diagram-box.jpg" alt="diagram of box model with margin, padding & border sourced from Uxcel">
-              <p>Utilizing the CSS Box Model, we can accurately dictate the desired parameters of content within an HTML document. Each element becomes wrapped in a <strong>box</strong>, enabling developers the freedom to craft interesting webpages. Inherently, there are four key components that establish the resulting layout for viewers: Content, Border, Padding and Margin. <br><br>Through this technique, developers can manipulate each of these four aspects to seamlessly create, manipulate, and design structured content. Each layer of the box model are automatically inserted into an element, however, we can adapt their dimensions through <strong>margin, padding</strong> and <strong>border</strong> commands. In addition, each side of the box can be edited independently of one another, an attribute that facilitates complete freedom to establish unique style dimensions.</p>
-          </div>
-        <article class="margin">
-          <h2>Margin</h2>
-          <p>A <strong>margin</strong> dictates the surrounding space of an element, controlling only the outer spacial area. For example, the contents of this element have been set to <strong><code>margin: 10px 200px 10px 200px</code></strong>, setting the top, right, bottom and left attributes. Essentially functioning as a clock, this ensures the direction of setting each margin is easy to remember and manipulate over time.</p>
-        </article>
-        <article class="border">
-          <h2>Border</h2>
-          <p>Resting inbetween the margin and padding, a <strong>border</strong> frames the content, providing added detailing or style to a webpage. More specifically, a border lines the perimeter of an element and can be personalized through a few key commands. For instance, the code for the borders surrounding this element are as follows: <br>
-          <div class="grid">
-            <div class="one"><strong><code>border-top-style: dashed;</code></strong></div>
-            <div class="two"><strong><code>border-top-width: 20px;</code></strong></div>
-            <div class="three"><strong><code>border-top-color: #7657ff;</code></strong></div>
-            <div class="four"><strong><code>border-right-style: groove;</code></strong></div>
-            <div class ="five"><strong><code>border-right-width: 30px;</code></strong></div>
-            <div class="six"><strong><code>border-right-color: #e4ddff;</code></strong></div>
-            <div class="seven"><strong><code>border-left-style: double;</code></strong></div>
-            <div class="eight"><strong><code>border-left-width: 20px;</code></strong></div>
-            <div class="nine"><strong><code>border-left-color: #7657ff;</code></strong></div>
-            <div class="ten"><strong><code>border-bottom-style: double;</code></strong></div>
-            <div class="eleven"><strong><code>border-bottom-width: 20px;</code></strong></div>
-            <div class="twelve"><strong><code>border-bottom-color: #e4ddff;</code></strong></div>
-        </article>
-        <article class="padding">
-          <h2>Padding</h2>
-            <p class="padding">In contrast to the aforementioned margin, <strong>padding</strong> increases the space within an element's border around it's content. Here, you will notice that while this element is the same size as the above <strong>border</strong> box, it appears to be bigger. Utilizing this command, it is possible to create additional space between the inner contents (this text), and it's outer edges. For example, the code used to manipulate this box is <strong><code>padding: 10px 100px 10px 80px;</code></strong> with the order of application functioning as a clock (top, right, bottom, left). By classifying both the article section and the paragraph as "padding," this has resulted in these specifications applying to both the header and the paragraph padding.</p>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <ul>
-        <li class="linkedin"><a href="https://www.linkedin.com/in/nikkicupples/">Linked In</a></li>
-        <li class="github"><a href="https://github.com/nikki-cupples">Github</a></li>
       </ul>
-    </footer>
-  </body>
+      <div class="dropdown">
+        <button class="dropbtn">|||</button>
+        <div class="dropdown-content">
+          <a href="/index.html">Blog. Nikki</a>
+          <a href="/blog/te-houtaewa-template.html">Te Houtaewa</a>
+          <a href="/blog/identity-values.html">Identity & Values</a>
+          <a href="/blog/learning-plan.html">Learning Plan</a>
+          <a href="/blog/javascript-dom.html">JS Fundamentals</a>
+          <a href="/blog/emotional-intelligence.html">Emotional Intelligence</a>
+          <a href="/blog/neuroplasticity.html">Neuroplasticity</a> 
+          <a href="/blog/te-whare-tapa-wha.html">Te Whare Tapa Whā</a>
+          <a href="/blog/problem-solving.html">Problem Solving</a>      
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h2 class="blog-title">Technical Blog</h2><hr>
+    <section>
+      <h3>Margin, Border & Padding
+        <br><em>September 5, 2024</em></h3>
+        <div class="introduction">
+            <img src="/images/diagram-box.jpg" alt="diagram of box model with margin, padding & border sourced from Uxcel">
+            <p>
+              Utilizing the CSS Box Model, we can accurately dictate the desired parameters of content within an HTML document. Each element becomes wrapped in a <strong>box</strong>, enabling developers the freedom to craft interesting webpages. Inherently, there are four key components that establish the resulting layout for viewers: Content, Border, Padding and Margin. <br><br>Through this technique, developers can manipulate each of these four aspects to seamlessly create, manipulate, and design structured content. Each layer of the box model are automatically inserted into an element, however, we can adapt their dimensions through <strong>margin, padding</strong> and <strong>border</strong> commands. In addition, each side of the box can be edited independently of one another, an attribute that facilitates complete freedom to establish unique style dimensions.
+            </p>
+        </div>
+      <article class="margin">
+        <h2>Margin</h2>
+        <p>
+          A <strong>margin</strong> dictates the surrounding space of an element, controlling only the outer spacial area. For example, the contents of this element have been set to <strong><code>margin: 10px 200px 10px 200px</code></strong>, setting the top, right, bottom and left attributes. Essentially functioning as a clock, this ensures the direction of setting each margin is easy to remember and manipulate over time.
+        </p>
+      </article>
+      <article class="border">
+        <h2>Border</h2>
+        <p>
+          Resting inbetween the margin and padding, a <strong>border</strong> frames the content, providing added detailing or style to a webpage. More specifically, a border lines the perimeter of an element and can be personalized through a few key commands. For instance, the code for the borders surrounding this element are as follows: <br>
+            <div class="grid">
+              <div class="one"><strong><code>border-top-style: dashed;</code></strong></div>
+              <div class="two"><strong><code>border-top-width: 20px;</code></strong></div>
+              <div class="three"><strong><code>border-top-color: #7657ff;</code></strong></div>
+              <div class="four"><strong><code>border-right-style: groove;</code></strong></div>
+              <div class ="five"><strong><code>border-right-width: 30px;</code></strong></div>
+              <div class="six"><strong><code>border-right-color: #e4ddff;</code></strong></div>
+              <div class="seven"><strong><code>border-left-style: double;</code></strong></div>
+              <div class="eight"><strong><code>border-left-width: 20px;</code></strong></div>
+              <div class="nine"><strong><code>border-left-color: #7657ff;</code></strong></div>
+              <div class="ten"><strong><code>border-bottom-style: double;</code></strong></div>
+              <div class="eleven"><strong><code>border-bottom-width: 20px;</code></strong></div>
+              <div class="twelve"><strong><code>border-bottom-color: #e4ddff;</code></strong>
+            </div>
+      </article>
+      <article class="padding">
+        <h2>Padding</h2>
+          <p class="padding">In contrast to the aforementioned margin, <strong>padding</strong> increases the space within an element's border around it's content. Here, you will notice that while this element is the same size as the above <strong>border</strong> box, it appears to be bigger. Utilizing this command, it is possible to create additional space between the inner contents (this text), and it's outer edges. For example, the code used to manipulate this box is <strong><code>padding: 10px 100px 10px 80px;</code></strong> with the order of application functioning as a clock (top, right, bottom, left). By classifying both the article section and the paragraph as "padding," this has resulted in these specifications applying to both the header and the paragraph padding.</p>
+      </article>
+    </section>
+  </main>
+</body>
+<footer>
+  <ul>
+    <li class="linkedin"><a href="https://www.linkedin.com/in/nikkicupples/">Linked In</a></li>
+    <li class="github"><a href="https://github.com/nikki-cupples">Github</a></li>
+  </ul>
+</footer>
 </html>
