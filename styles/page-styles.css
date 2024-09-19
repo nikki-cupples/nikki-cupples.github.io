@@ -359,6 +359,18 @@ article p {
   height: 300px;
 }
 
+th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-radius: 10px;
+  background-color: rgb(236, 186, 186);
+  padding: 10px;
+}
+
+th {
+  background-color: #c4c4c4;
+}
+
 /* FOOTER*/
 
 footer {
